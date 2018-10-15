@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5946541e-232b-40ce-b230-a16b4b08795a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>module\moduleTest.py</StartupFile>
+    <StartupFile>list\dimension list\dimensionList.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,7 +30,30 @@
     <Compile Include="calculating\ConvertNumSample.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="condition\conditional.py">
+    <Compile Include="condition, loop\conditional.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="condition, loop\loop.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="fizzbuzz\fizzbuzz.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="list\dimension list\dimensionList.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="list\list3.py" />
+    <Compile Include="list\list2.py" />
+    <Compile Include="list\list1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="list\list4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="list\list5comprehension.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="list\list6map.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="module\moduleTest.py">
@@ -43,13 +66,25 @@
     <Compile Include="string\stringSample.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="tuple\tuple2.py" />
+    <Compile Include="tuple\tuple1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="turtleGraphics\turtleGraphics.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="calculating\" />
     <Folder Include="closure\" />
     <Folder Include="bool\" />
+    <Folder Include="list\dimension list\" />
     <Folder Include="module\" />
-    <Folder Include="condition\" />
+    <Folder Include="condition, loop\" />
+    <Folder Include="fizzbuzz\" />
+    <Folder Include="list\" />
+    <Folder Include="tuple\" />
+    <Folder Include="turtleGraphics\" />
     <Folder Include="string\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
