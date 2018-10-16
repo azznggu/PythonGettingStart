@@ -33,10 +33,24 @@ read()
 
 '''
 file mode type
- r
- w
- a
- rb
- wb
-
+ r - 읽기
+ w - 쓰기
+ a - 추가
+ rb - 바이너리 읽기
+ wb - 바이너리 쓰기
 '''
+
+def countWords():
+    with open('words.txt', 'r') as file :
+        count = 0
+        words = file.readlines()
+        print(words)
+        list = []
+        for word in words :
+            if len(word.strip('\n')) <= 10 :
+                count+=1
+                list.append(word)
+    print(list)
+    return count
+
+print(countWords())
