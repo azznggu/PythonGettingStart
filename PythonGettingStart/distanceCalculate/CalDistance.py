@@ -16,9 +16,9 @@ b = abs(p1.y-p2.y)
 c = sqrt(a**2 + b**2)
 #c = sqrt(pow(a,2)+pow(b,2))
 #c = sqrt(a*a + b*b)
-print('distance: {}'.format(c))
+#print('distance: {}'.format(c))
 
-
+print('distance :  {}'.format(c))
 
 
 #namedtuple
