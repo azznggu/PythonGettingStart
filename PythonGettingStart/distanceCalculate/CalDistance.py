@@ -35,4 +35,7 @@ namedtuple로 생성한 클래스는 값을 넣어서 인스턴스를 만들 수
 인스턴스.요소이름1
 인스턴스[인덱스]
 '''
+import collections
+
+Point2D = collections.namedtuple('Point2D', ['x','y'])
 
