@@ -38,4 +38,10 @@ namedtuple로 생성한 클래스는 값을 넣어서 인스턴스를 만들 수
 import collections
 
 Point2D = collections.namedtuple('Point2D', ['x','y'])
+p1 = Point2D(x = 10 , y = 20)
+p2 = Point2D(x = 30 , y = 40)
+a = p1.x - p2.x
+b = p1.y - p2.y
+c = sqrt(a*a + b*b)
+print(c)
 
