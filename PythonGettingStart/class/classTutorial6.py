@@ -28,7 +28,7 @@ class Time:
     @classmethod
     def from_string(cls, time_string):
         hour, minute, second = map(int, time_string.split(':'))
-        time = Time(hour, minute, second)
+        time = cls(hour, minute, second)
         return time
 
 time_string = input()
